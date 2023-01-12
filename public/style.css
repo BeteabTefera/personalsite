@@ -1,11 +1,26 @@
 body {
   font-family: sans-serif;
   text-align: center;
+  background-color: black;
+  color: white;
 }
-h1 {
-  color: #333;
+p{
+  text-align: left;
 }
+.about-section{
+  align-items: center;
+  justify-content: center;
+  height: auto;
 
+}
+#about-me{
+  text-align: left;
+}
+#profile_pic {
+  width: 20rem;
+  height: 18rem;
+  border-radius: 100%;
+}
 .under-construction {
   animation: blink 1s infinite;
 }
